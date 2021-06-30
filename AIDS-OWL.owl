@@ -1,0 +1,4142 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/meriem-bouf/ontologies/2021/0/AIDS"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/meriem-bouf/ontologies/2021/0/AIDS">
+    <Prefix name="" IRI="http://www.semanticweb.org/meriem-bouf/ontologies/2021/0/AIDS"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Ambulance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anomaly_Inf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Articulated_Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basic_Safety_MS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bycicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car_Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City_Transit_Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connectivity_Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyclist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DSRC_Radio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detectors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distribution_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethernet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_Truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gatway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green_Signal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guide_Symobols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guidence_Signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IEEE8011.P"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident_Detection_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident_Inf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingestion_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intercity_Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intersection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Message"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorcycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorized_Vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Intrisuve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notification_Inf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notification_MS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notification_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnBoardUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operating_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passenger_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pedestrain__Signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pedstrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priority_Vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_Signal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulation_Signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulatory_Symobols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Side_Equipement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roandbout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School_Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semi_Trailer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symobols_Markings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Control_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Inf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trucks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tunnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unplanned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WIFI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warnings_Signs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warnings_Symobols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wired"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wireless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yello_Signal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#edge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#signal_Inf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Sense"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accelerate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acquire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyze"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#classify"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decelerate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#define"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#distribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#drive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#extract"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#filter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#installed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mounted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#move"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#retrieve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#send"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stopped"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#store"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transmitted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trigger"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#turn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wait"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#walk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Acceleration_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_Prs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Angle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ChannelCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Color_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Content_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cycle_TSC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data_Rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Destination_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Edge_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Format_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Goal_Dev"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Height_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier_Det"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier_Dev"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier_Prs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier_Tsc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lanes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Latitude_Det"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Latitude_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Latitude_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lenght_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Location_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Location_TSC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Longitude_Det"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Longitude_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Longitude_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Memory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Messages_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name_Det"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name_Prs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OS_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Offset"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Path_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Phase_TSC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Priority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Processor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Radio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Range"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Role_Prs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Route_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Segements"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Signal_TSC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Size_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Source_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Spectrum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Speed_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Storage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Structure_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Timestamp_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_Det"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_Dev"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_Inc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_Inf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_TSC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type_Veh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Width"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Width_Veh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acceleration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accident"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acoustic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adverse_Weather_Conditions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anomaly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DSRC_R1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disabled_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Humidity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Incident"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Incident1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Incident2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Incident3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mangnitic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manifestation_Events"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OBU1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OS1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OS2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RSU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reccuring_Congestion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Repair_Works"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Road1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Road2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sounds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spilled_Load"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sport_Events"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSC1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSC2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSC3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Traffic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vibration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ambulance"/>
+        <Class IRI="#Priority_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anomaly_Inf"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application_System"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Articulated_Bus"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basic_Safety_MS"/>
+        <Class IRI="#Message"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridge"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bycicle"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CAN"/>
+        <Class IRI="#Connectivity_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car_Driver"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City_Transit_Bus"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connectivity"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connectivity_Interface"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycle"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyclist"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DSRC_Radio"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distribution_Service"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ethernet"/>
+        <Class IRI="#Connectivity_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_Truck"/>
+        <Class IRI="#Priority_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPS"/>
+        <Class IRI="#Connectivity_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gatway"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Signal"/>
+        <Class IRI="#Signal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guide_Symobols"/>
+        <Class IRI="#Symobols_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guidence_Signs"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IEEE8011.P"/>
+        <Class IRI="#Wireless"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In_Vehicle"/>
+        <Class IRI="#Detectors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incident_Detection_Service"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incident_Inf"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Signs"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingestion_Service"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intercity_Bus"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intersection"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrusive"/>
+        <Class IRI="#Detectors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lane"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Message"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorcycle"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorist"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorized_Vehicles"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Intrisuve"/>
+        <Class IRI="#Detectors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notification_Inf"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notification_MS"/>
+        <Class IRI="#Message"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notification_Service"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnBoardUnit"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operating_System"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passenger_Vehicle"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pedestrain__Signs"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pedstrain"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phase"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planned"/>
+        <Class IRI="#Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police"/>
+        <Class IRI="#Priority_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police_Agent"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priority_Vehicles"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocols"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_Signal"/>
+        <Class IRI="#Signal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulation_Signs"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulatory_Symobols"/>
+        <Class IRI="#Symobols_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Side_Equipement"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roandbout"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School_Bus"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semi_Trailer"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signal"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signs"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symobols_Markings"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tractor"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Control"/>
+        <Class IRI="#Priority_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Control_Agent"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Inf"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Signal_Controller"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trucks"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tunnel"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unplanned"/>
+        <Class IRI="#Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vans"/>
+        <Class IRI="#Motorized_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WIFI"/>
+        <Class IRI="#Wireless"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warnings_Signs"/>
+        <Class IRI="#Signs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warnings_Symobols"/>
+        <Class IRI="#Symobols_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Service"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wired"/>
+        <Class IRI="#Connectivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wireless"/>
+        <Class IRI="#Connectivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yello_Signal"/>
+        <Class IRI="#Signal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#edge"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#signal_Inf"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Acceleration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unplanned"/>
+        <NamedIndividual IRI="#Accident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Acoustic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planned"/>
+        <NamedIndividual IRI="#Adverse_Weather_Conditions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Information"/>
+        <NamedIndividual IRI="#Anomaly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DSRC_Radio"/>
+        <NamedIndividual IRI="#DSRC_R1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unplanned"/>
+        <NamedIndividual IRI="#Disabled_Vehicle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Humidity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Information"/>
+        <NamedIndividual IRI="#Incident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Incident"/>
+        <NamedIndividual IRI="#Incident1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Incident"/>
+        <NamedIndividual IRI="#Incident2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Incident"/>
+        <NamedIndividual IRI="#Incident3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Location"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planned"/>
+        <NamedIndividual IRI="#Manifestation_Events"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnBoardUnit"/>
+        <NamedIndividual IRI="#OBU1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operating_System"/>
+        <NamedIndividual IRI="#OS1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operating_System"/>
+        <NamedIndividual IRI="#OS2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road_Side_Equipement"/>
+        <NamedIndividual IRI="#RSU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planned"/>
+        <NamedIndividual IRI="#Reccuring_Congestion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planned"/>
+        <NamedIndividual IRI="#Repair_Works"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road"/>
+        <NamedIndividual IRI="#Road1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road"/>
+        <NamedIndividual IRI="#Road2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Sounds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Speed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unplanned"/>
+        <NamedIndividual IRI="#Spilled_Load"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planned"/>
+        <NamedIndividual IRI="#Sport_Events"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Traffic_Signal_Controller"/>
+        <NamedIndividual IRI="#TSC1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Traffic_Signal_Controller"/>
+        <NamedIndividual IRI="#TSC2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Traffic_Signal_Controller"/>
+        <NamedIndividual IRI="#TSC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Temperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Information"/>
+        <NamedIndividual IRI="#Traffic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motorized_Vehicles"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motorized_Vehicles"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priority_Vehicles"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motorized_Vehicles"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Vibration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detectors"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Acceleration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Acceleration"/>
+        <Literal>e301a42e</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Acceleration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Acceleration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Acceleration"/>
+        <Literal>Acceleration</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Acceleration"/>
+        <Literal>In-vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Acoustic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">150.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Acoustic"/>
+        <Literal>e301a42c</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Acoustic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">750.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Acoustic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">150.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Acoustic"/>
+        <Literal>Acoustic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Acoustic"/>
+        <Literal>Non_Intrisuve</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Content_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal>Speed:0
+Acceleration:0
+Longitude: 500
+Latitude: 0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Destination_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal>Web Service</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Format_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal>JSON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Size_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Source_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal>Detectors</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Structure_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal>ID, Destination, Source, Size, Type, Data, Timestamp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inf"/>
+        <NamedIndividual IRI="#Anomaly"/>
+        <Literal>Text</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ChannelCapacity"/>
+        <NamedIndividual IRI="#DSRC_R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Data_Rate"/>
+        <NamedIndividual IRI="#DSRC_R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Range"/>
+        <NamedIndividual IRI="#DSRC_R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Spectrum"/>
+        <NamedIndividual IRI="#DSRC_R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Humidity"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Humidity"/>
+        <Literal>e301a42h</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Humidity"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">78.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Humidity"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">45.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Humidity"/>
+        <Literal>e301a42w</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Humidity"/>
+        <Literal>In_Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Content_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal>c8399d1492bf90c9cbd0cc9b9f1ad351;a934c3810451f004567c8494d3c22f50;4.2;0;30.4;526.65;20200325-19:36:49;68c109c942d651a303cae6d5d4ccddbe; Disabled Vehicle; 60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Destination_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal>Incident Detection Service</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Format_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal>JSON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Size_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Source_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal>Ingestion Service</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Structure_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal>Incident_id;Incident_Type;Speed_vehicle;Acceleration_vehicle;Latitude_Incident;Longitude_Incident;Timestamp_Incident;Rsu_id; Incident_Duration</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inf"/>
+        <NamedIndividual IRI="#Incident"/>
+        <Literal>Text</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Duration_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal>bcfcc3f5c4288aab8a892c8c9255be0f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">450.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal>Disabled Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Timestamp_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-01T18:05:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inc"/>
+        <NamedIndividual IRI="#Incident1"/>
+        <Literal>Unplanned</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Duration_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal>a947c6ce7a67d7fc5e03e698c57b8c23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">320.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal>Accident</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Timestamp_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-03T08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inc"/>
+        <NamedIndividual IRI="#Incident2"/>
+        <Literal>Unplanned</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Duration_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">120.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal>21dfbf89fa8646052ed3ea117c60aa06</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">320.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">460.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal>Repair_Works</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Timestamp_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-18T11:30:05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inc"/>
+        <NamedIndividual IRI="#Incident3"/>
+        <Literal>Planned</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+        <Literal>e301a42t</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">250.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">250.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+        <Literal>ILD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Inductive_Loop_Detectors"/>
+        <Literal>Intrusive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Light"/>
+        <Literal>e301a42j</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">14.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Light"/>
+        <Literal>Light</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Light"/>
+        <Literal>In_Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Location"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Location"/>
+        <Literal>e301a42f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Location"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Location"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Location"/>
+        <Literal>GPS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Location"/>
+        <Literal>In_Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">200.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+        <Literal>e301a42k</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">155.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">325.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+        <Literal>Magnetic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Mangnitic"/>
+        <Literal>Non_Intrisuve</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">200.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+        <Literal>e301a42s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">150.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">555.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+        <Literal>Microwave_Radar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Microwave_Radar"/>
+        <Literal>Non_Intrisuve</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Goal_Dev"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal>Communication</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Dev"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal>8e50ef590f9ea8811a130f0a4a50856a</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Memory"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Power"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Processor"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Radio"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal>DSRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Storage"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Dev"/>
+        <NamedIndividual IRI="#OBU1"/>
+        <Literal>Hardware</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OS_name"/>
+        <NamedIndividual IRI="#OS1"/>
+        <Literal>Ubuntu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OS_name"/>
+        <NamedIndividual IRI="#OS2"/>
+        <Literal>Android</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_Prs"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1991-05-08T08:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Prs"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal>c2947059</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal>Algeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Prs"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal>Mohamed Hamdi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Role_Prs"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal>Car_Driver</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_Prs"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1971-02-02T04:00:04</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Prs"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal>c2947058</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal>Algeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Prs"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal>Ahmed Nadir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Role_Prs"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal>Cyclist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_Prs"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1973-07-23T04:00:55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Prs"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal>c2947057</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal>Algeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Prs"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal>RADI HAMZA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Role_Prs"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal>Motorist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_Prs"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-01-28T01:44:22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Prs"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal>c2947056</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal>Algeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Prs"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal>Wajdi Aymen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Role_Prs"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal>Pedestrain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_Prs"/>
+        <NamedIndividual IRI="#Person5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1976-07-08T08:04:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Prs"/>
+        <NamedIndividual IRI="#Person5"/>
+        <Literal>c2947054</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person5"/>
+        <Literal>Algeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Prs"/>
+        <NamedIndividual IRI="#Person5"/>
+        <Literal>Rabbah Ramzi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Role_Prs"/>
+        <NamedIndividual IRI="#Person5"/>
+        <Literal>Traffic_Control_Agent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_Prs"/>
+        <NamedIndividual IRI="#Person6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1977-02-22T05:54:02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Prs"/>
+        <NamedIndividual IRI="#Person6"/>
+        <Literal>c2947055</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <NamedIndividual IRI="#Person6"/>
+        <Literal>Algeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Prs"/>
+        <NamedIndividual IRI="#Person6"/>
+        <Literal>Amine Salhi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Role_Prs"/>
+        <NamedIndividual IRI="#Person6"/>
+        <Literal>Police_Agent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Goal_Dev"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal>Communication</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Dev"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal>c91f4ce0fcbb0a20cbdb66a7842495de</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Memory"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Processor"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Radio"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal>DSRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Range"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Storage"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Dev"/>
+        <NamedIndividual IRI="#RSU"/>
+        <Literal>Hardware</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Angle"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">487.65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Edge_Type"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal>All</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lanes"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Length"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">486.15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Priority"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Segements"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Speed"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal>internal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volume"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width"/>
+        <NamedIndividual IRI="#Road1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Angle"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">513.85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Edge_Type"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal>Bicycle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lanes"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Length"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">486.15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Priority"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Segements"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Speed"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal>Internal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volume"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width"/>
+        <NamedIndividual IRI="#Road2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Sounds"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Sounds"/>
+        <Literal>e301a42v</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Sounds"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">75.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Sounds"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">45.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Sounds"/>
+        <Literal>Sounds</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Sounds"/>
+        <Literal>In-Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Speed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Speed"/>
+        <Literal>e301a42v</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Speed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Speed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">50.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Speed"/>
+        <Literal>Speed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Speed"/>
+        <Literal>In_Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cycle_TSC"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Tsc"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal>gh1f4ce0fcbb0a20cbdb66a7842495de</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location_TSC"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">555.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Offset"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phase_TSC"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Signal_TSC"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal>GrGrGrrGrrGrGrGrrGrrrrrr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_TSC"/>
+        <NamedIndividual IRI="#TSC1"/>
+        <Literal>Static</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cycle_TSC"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Tsc"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal>az1f4ce0fcbb0a20cbdb66a7842495de</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location_TSC"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">555.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Offset"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phase_TSC"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Signal_TSC"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal>yrGryrrGrryrGryrrGrrrrrr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_TSC"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_TSC"/>
+        <NamedIndividual IRI="#TSC2"/>
+        <Literal>Static</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cycle_TSC"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Tsc"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal>cv1f4ce0fcbb0a20cbdb66a7842495de</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location_TSC"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">555.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Offset"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phase_TSC"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Signal_TSC"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal>rrGrrrrGrrrrGrrrrGrrrrrr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_TSC"/>
+        <NamedIndividual IRI="#TSC3"/>
+        <Literal>Static</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Temperature"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Temperature"/>
+        <Literal>e301a42y</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Temperature"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">54.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Temperature"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">78.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Temperature"/>
+        <Literal>Temperature</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Temperature"/>
+        <Literal>In_Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Content_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal>27e71928804cc603ff4908be447e9384;a934c3810451f004567c8494d3c22f50;0;0;30.4;526.65;20200325-19:36:48;68c109c942d651a303cae6d5d4ccddbe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Destination_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal>Ingestion Service</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Format_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal>JSON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Size_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">520.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Source_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal>Web Service</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Structure_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal>Vehicle_id;Name_vehicle;Speed_vehicle;Acceleration_vehicle;Latitude_vehicle;Longitude_vehicle;Timestamp_vehicle;Rsu_id</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Inf"/>
+        <NamedIndividual IRI="#Traffic"/>
+        <Literal>Text</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Color_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>DSRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Height_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>c8399d1492bf90c9cbd0cc9b9f1ad351</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lenght_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">526.65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Messages_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>Basic Safety Message</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Path_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>From right to sought</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Route_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>Route1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sensors"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>GPS
+Accelerometer
+Video_Camera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Speed_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>Taxi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width_Veh"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Color_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>Yello</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>DSRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Height_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>59efec6c2385817494f7f7b723c8c2f9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">523.35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lenght_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">991.649</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Messages_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>Basic Safety Message</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Path_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>EAST-WEST</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Route_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>Route2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sensors"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>GPS
+Accelerometer
+Video_Camera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Speed_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>Bus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width_Veh"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Color_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>white</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>DSRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Height_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>27e71928804cc603ff4908be447e9384</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">523.35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lenght_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">781.649</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Messages_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>Basic Safety Message</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Path_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Path_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>Nord-Sud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Route_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>Route3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sensors"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>GPS
+Accelerometer
+Video-Camera
+RFID</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Speed_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal>Emergency Vehicle &quot;Ambulance&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width_Veh"/>
+        <NamedIndividual IRI="#Vehicle3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Color_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>Red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>DSRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Height_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>a47141899db9147bf81ae4bbe51e1d10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">523.35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lenght_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">691.649</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Messages_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>Basic Safety Message</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Path_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>Nourd-Sud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Route_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>Route2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sensors"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>GPS
+Accelerometer
+Video-Camera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Speed_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal>Motorized-Vehicle &quot; Passanger&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Width_Veh"/>
+        <NamedIndividual IRI="#Vehicle4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Vibration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">200.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Vibration"/>
+        <Literal>e301a42b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Vibration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">420.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Vibration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">56.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Vibration"/>
+        <Literal>Vibration</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Vibration"/>
+        <Literal>In_Vehicle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Identifier_Det"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+        <Literal>e301a42f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Latitude_Det"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Longitude_Det"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">36.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_Det"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+        <Literal>CCTV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type_Det"/>
+        <NamedIndividual IRI="#Video_Image_Camera"/>
+        <Literal>Non_Intrisuve</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#decelerate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#filter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#move"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#walk"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#IsTypeOf"/>
+            <Class IRI="#Basic_Safety_MS"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#IsTypeOf"/>
+            <Class IRI="#DSRC_Radio"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#IsTypeOf"/>
+            <Class IRI="#Notification_MS"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Sense"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Sense"/>
+            <Class IRI="#Detectors"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#accelerate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#accelerate"/>
+            <Class IRI="#Car_Driver"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#accelerate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#accelerate"/>
+            <Class IRI="#Cyclist"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#accelerate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#accelerate"/>
+            <Class IRI="#Motorist"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acquire"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#acquire"/>
+            <Class IRI="#Ingestion_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acquire"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#acquire"/>
+            <Class IRI="#Notification_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analyze"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#analyze"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#classify"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#classify"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connect"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#connect"/>
+            <Class IRI="#OnBoardUnit"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#decelerate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#decelerate"/>
+            <Class IRI="#Car_Driver"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#decelerate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#decelerate"/>
+            <Class IRI="#Cyclist"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#decelerate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#decelerate"/>
+            <Class IRI="#Motorist"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#define"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#define"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#detect"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#detect"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#distribute"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#distribute"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#drive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#drive"/>
+            <Class IRI="#Car_Driver"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#extract"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#extract"/>
+            <Class IRI="#Ingestion_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#filter"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#filter"/>
+            <Class IRI="#Ingestion_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#generate"/>
+            <Class IRI="#Detectors"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generate"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#generate"/>
+            <Class IRI="#Notification_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#OnBoardUnit"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#installed"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#mounted"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mounted"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#mounted"/>
+            <Class IRI="#OnBoardUnit"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#move"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#move"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Web_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observe"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#observe"/>
+            <Class IRI="#Detectors"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#process"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#process"/>
+            <Class IRI="#Detectors"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Distribution_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#OnBoardUnit"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Person"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Signs"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#retrieve"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#retrieve"/>
+            <Class IRI="#Notification_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Distribution_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Ingestion_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Notification_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#OnBoardUnit"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Traffic_Signal_Controller"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#stopped"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#stopped"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#store"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#store"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#Detectors"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#Web_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#trigger"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#trigger"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#turn"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#turn"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#use"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#use"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wait"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#wait"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#walk"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#walk"/>
+            <Class IRI="#Pedstrain"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#IsTypeOf"/>
+            <Class IRI="#IEEE8011.P"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#IsTypeOf"/>
+            <Class IRI="#Notification_Inf"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsTypeOf"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Sense"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#drive"/>
+            <Class IRI="#Information"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#accelerate"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#accelerate"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acquire"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#acquire"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#analyze"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#analyze"/>
+            <Class IRI="#Anomaly_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#classify"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#classify"/>
+            <Class IRI="#Anomaly_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connect"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#connect"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#decelerate"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#decelerate"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#define"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#define"/>
+            <Class IRI="#Incident"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#detect"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#detect"/>
+            <Class IRI="#Incident"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#distribute"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#distribute"/>
+            <Class IRI="#Notification_MS"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#drive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#drive"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#extract"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#extract"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#filter"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#filter"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#generate"/>
+            <Class IRI="#Basic_Safety_MS"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generate"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#generate"/>
+            <Class IRI="#Notification_MS"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#CAN"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Connectivity_Interface"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#DSRC_Radio"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#installed"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#installed"/>
+            <Class IRI="#Traffic_Signal_Controller"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mounted"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#mounted"/>
+            <Class IRI="#Vehicle"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move"/>
+        <Class IRI="#Bridge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Road"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Road_Side_Equipement"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Bridge"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Intersection"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#move"/>
+            <Class IRI="#Roandbout"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observe"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#observe"/>
+            <Class IRI="#Infrastructure"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#process"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#process"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Basic_Safety_MS"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Notification_MS"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receive"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#signal_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#retrieve"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#retrieve"/>
+            <Class IRI="#Incident_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Incident_Detection_Service"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Basic_Safety_MS"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Distribution_Service"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Incident_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Notification_MS"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Web_Service"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#signal_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#stopped"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#receive"/>
+            <Class IRI="#Lane"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#store"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#store"/>
+            <Class IRI="#Incident_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#Information"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#IEEE8011.P"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#Traffic_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transmitted"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#transmitted"/>
+            <Class IRI="#WIFI"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#trigger"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#trigger"/>
+            <Class IRI="#Incident_Inf"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#turn"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#turn"/>
+            <Class IRI="#Lane"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#use"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#use"/>
+            <Class IRI="#Signal"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#use"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#use"/>
+            <Class IRI="#Signs"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wait"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#wait"/>
+            <Class IRI="#Red_Signal"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wait"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#wait"/>
+            <Class IRI="#Yello_Signal"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#walk"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#send"/>
+            <Class IRI="#Lane"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Location_Inc"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Priority"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Segements"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sensors"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Type_Det"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Type_Inf"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Type_TSC"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Width_Veh"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_Prs"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Angle"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ChannelCapacity"/>
+        <Class IRI="#DSRC_Radio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Color_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <Class IRI="#Detectors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Content_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cycle_TSC"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Data_Rate"/>
+        <Class IRI="#DSRC_Radio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Destination_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duration_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Edge_Type"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Format_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Goal_Dev"/>
+        <Class IRI="#Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Height_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Identifier_Tsc"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lanes"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Latitude_Det"/>
+        <Class IRI="#Detectors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Latitude_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Latitude_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lenght_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Length"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Location_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Location_TSC"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Longitude_Det"/>
+        <Class IRI="#Detectors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Longitude_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Longitude_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Memory"/>
+        <Class IRI="#Hardware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Messages_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_Det"/>
+        <Class IRI="#Detectors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_Prs"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OS_name"/>
+        <Class IRI="#Operating_System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Offset"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Path_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Phase_TSC"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Power"/>
+        <Class IRI="#Hardware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Priority"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Processor"/>
+        <Class IRI="#Hardware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Radio"/>
+        <Class IRI="#Hardware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Range"/>
+        <Class IRI="#DSRC_Radio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Role_Prs"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Route_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Segements"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sensors"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Signal_TSC"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Size_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Source_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Spectrum"/>
+        <Class IRI="#DSRC_Radio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Speed"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Speed_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Storage"/>
+        <Class IRI="#Hardware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Structure_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Timestamp_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_Det"/>
+        <Class IRI="#Detectors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_Dev"/>
+        <Class IRI="#Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_Inc"/>
+        <Class IRI="#Incident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_Inf"/>
+        <Class IRI="#Information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_TSC"/>
+        <Class IRI="#Traffic_Signal_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Volume"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Width"/>
+        <Class IRI="#Road"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Width_Veh"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Acceleration_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_Prs"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Angle"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ChannelCapacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Color_Veh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CommunicationRange_Det"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ConnectivityInterface_Veh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Content_Inf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cycle_TSC"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Data_Rate"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DateOfBirdth_Prs"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Destination_Inf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Duration_Inc"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Edge_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Format_Inf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Goal_Dev"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Height_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Identifier_Tsc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lanes"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Latitude_Det"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Latitude_Inc"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Latitude_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lenght_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Length"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LocationOfBirdth_Prs"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Location_Inc"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Location_TSC"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Longitude_Det"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Longitude_Inc"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Longitude_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Memory"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Messages_Veh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name_Det"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name_Inc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name_Prs"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OS_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Offset"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Path_Veh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Phase_TSC"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Power"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Priority"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Processor"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Radio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Range"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Role_Prs"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Route_Veh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Segements"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sensors"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Signal_TSC"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Size_Inf"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Source_Inf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Spectrum"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Speed"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Speed_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Storage"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Structure_Inf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Timestamp_Inc"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_Det"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_Dev"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_Inc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_Inf"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_TSC"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type_Veh"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Volume"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Width"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Width_Veh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DSRC_R1</IRI>
+        <Literal>Instance describe communication radio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Disabled_Vehicle</IRI>
+        <Literal>Instance describe  a type of unplanned incident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Humidity</IRI>
+        <Literal>Instance describe a type of in vehicle sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Incident</IRI>
+        <Literal>Instance describes  information about incident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Inductive_Loop_Detectors</IRI>
+        <Literal>Instance describe the intrusive sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OBU1</IRI>
+        <Literal>Instance used to give us information about On Board Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person1</IRI>
+        <Literal>Instance describe a type of road user</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RSU</IRI>
+        <Literal>Instance describe information about the road side unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road1</IRI>
+        <Literal>Instance describe information about the road used by CV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TSC1</IRI>
+        <Literal>Instance used to inform us about the characteristics of Traffic Signal Controller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Traffic</IRI>
+        <Literal>Instance used to describe information sent from sensors or CV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle1</IRI>
+        <Literal>Instance used to describe a type of vehicle</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
